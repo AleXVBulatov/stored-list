@@ -37,7 +37,7 @@ function displayItems(items, itemsList) {
     return `
     <li>
       <input type="checkbox" id="item${index}" data-index="${index}" ${item.checked ? "checked" : "" } />
-      ${index + 1}         
+      ${index + 1}.         
       <label for="item${index}">${item.text}</label>
     </li>`;
   }).join("");
